@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presaberes</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
+
 <body>
-    <h1><p style="color:rgb(30, 52, 193); font-size: 50px">PRESABERES</p></h1>
-    <h2><p style="color:rgb(0, 2, 8);">Datos Personales</p></h2>
+    <h1><p>PRESABERES</p></h1>
+    <h2><p>Datos Personales</p></h2>
+    <img src="IMAGEN/Creador.jpg" alt="Creador" width="150" height="200">
         <ul>
             <li>Nombres: Olmer Yesid.</li>
             <li>Apellidos: Castro Cuevas</li>
-            <li>Grupo:</li> 
+            <li>Grupo: 301127_39</li> 
             <li>Cédula: 7.365.134</li>
             <li>Skype: Olmer Castro</li>
             <li>Telefono Celular: 3132293607</li>
             <li>Correo Personal: olmer26castro@gmail.com </li>
+
+                        
         </ul> 
-        
-    <h3><p style="color:rgb( 250, 8, 22 );">Tabla de Principales Etiquetas HTML</p></h3>
+                      
+    <h3><p>Tabla de Principales Etiquetas HTML</p></h3>
     
     <table>
         <tr>
@@ -32,19 +37,23 @@
                 una misma sección.</td>
         </tr>
         <tr>
+            <td>html</td>
+            <td>Indica el comienzo del documento HTML. </td>
+        </tr>
+        <tr>
+            <td>head</td>
+            <td>Indica que empieza la cabecera de la página, generalmente es el título.</td>
+        </tr>
+
+        <tr>
             <td>section</td>
             <td>Definición de una seccción en el código, indicando que
                 es un bloque o una sección.</td>
         </tr>
         <tr>
-            <td><title></td>
+            <td>title</td>
             <td>Define el título del documento, el cual se muestra en
                 la barra de título del navegador o en las pestañas de página.</td>
-        </tr>
-        <tr>
-            <td>link</td>
-            <td>Usada para enlazar JavaScript y CSS externos con el
-                documento HTML actual.</td>
         </tr>
         <tr>
             <td>nav</td>
@@ -55,14 +64,6 @@
             <td>Define el pie de una página o sección. Usualmente contiene un mensaje
                  de derechos de autoría, algunos enlaces a información legal o
                  direcciones para dar información de retroalimentación.</td>
-        </tr>
-        <tr>
-            <td>html</td>
-            <td>Indica el comienzo del documento HTML. </td>
-        </tr>
-        <tr>
-            <td>head</td>
-            <td>Indica que empieza la cabecera de la página, generalmente es el título.</td>
         </tr>
         <tr>
             <td>body</td>
@@ -112,7 +113,7 @@
         </tr>
     </table>
 
-    <h4><p style="color:rgb( 250, 8, 22 );">Tabla de Estilos utilizados en CSS</p></h3>
+    <h3><p>Tabla de Estilos utilizados en CSS</p></h3>
     
     <table>
         <tr>
@@ -120,95 +121,94 @@
             <th>Descripción</th>
         </tr>
         <tr>
-            <td>colors</td>
+            <td>color</td>
             <td>Se utiliza para definir el color del texto. Se puede escribir el Nombre
                 del color en ingles "color: red", para rojo, o en el sistema RGB,
                 "color: rgb( 250, 8, 22 )" para el mismo rojo. 
             </td>
         </tr>
         <tr>
-            <td>Backgrounds</td>
+            <td>Background</td>
             <td>Se utiliza para definir el color de fondo, se puede definir el color
                 escribiendo su nombre en ingles o en la notación RGB hexadecimal.</td>
         </tr>
         <tr>
-            <td>borders</td>
+            <td>border</td>
             <td>Se utiliza para aplicar estilos, no son visibles, y es como un cuadro
-                imaginario que envuelve todo el contenido del bloque.</td>
+                imaginario que envuelve todo el contenido del bloque. Son cuatro bordes 
+                simultáneamente, border-color,border-width y border-style.</td>
         </tr>
         <tr>
-            <td>margins</td>
+            <td>margin</td>
             <td>Se utiliza para definir el espacio comprendido entre el bloque y el
                 borde de la ventana activa del navegador.</td>
         </tr>
         <tr>
             <td>text</td>
-            <td> </td>
+            <td>Define las propiedades que determinan la apariencia del texto 
+                en general, text-align sirve para alinear el texto: (left) a la 
+                izquierda, (right) a la derecha, (center) centrado y (justify) justificado.</td>
         </tr>
         <tr>
-            <td>fonts</td>
-            <td>Sí </td>
+            <td>font</td>
+            <td>Permite establecer una sola vez los valores para todas las propiedades en una hoja de
+                 estilo. "font-style" permite definir el aspecto de una familia tipográfica entre los 
+                 valores: normal, italic (cursiva) y oblique. "font-variant", selecciona entre los 
+                 aspectos normal y small-caps para la familia de fuentes. "font-weight", especifica 
+                 el peso o grueso de la letra. Algunos tipos de letra sólo están disponibles en normal y
+                 bold. "font-size", especifica la dimensión de la letra. Este tamaño puede, a su vez,
+                 alterar el aspecto de alguna otra cosa, ya que se usa para calcular la longitud de las
+                 unidades em y ex. "line-height", establece la altura de una casilla remarcada por líneas. 
+                 y "font-family, define una lista de fuentes o familias de fuentes, con un orden de
+                 prioridad, para utilizar en un elemento seleccionado."</td>
         </tr>
         <tr>
             <td>height</td>
-            <td>Sí </td>
+            <td>Especifica la altura del area de contenido de un elemento. El área de contenido está dentro
+                del padding, borde, y margen del elemento. Las propiedades min-height y max-height sobreescriben
+                el valor de height.</td>
         </tr>
         <tr>
             <td>width</td>
-            <td>Sí </td>
+            <td>controla la anchura de la caja de los elementos.Esta propiedad no admite valores negativos
+                y los valores en porcentaje se calculan a partir de la anchura de su elemento padre.</td>
         </tr>
         <tr>
-            <td>links</td>
-            <td>Sí </td>
+            <td>link</td>
+            <td>Representa un elemento que aún no se ha visitado. Coincide con cada elemento no visitado</td>
         </tr>
         <tr>
-            <td>lists</td>
-            <td>Sí </td>
+            <td>list</td>
+            <td>Establece las propiedades del marcador de los elementos de la lista, se aplica a todos los
+                elementos de tipo elemento de lista</td>
         </tr>
         <tr>
-            <td>tables</td>
-            <td>Sí </td>
+            <td>table</td>
+            <td>Permite asignar un comportamiento de tabla a los elementos que haya dentro, </td>
         </tr>
         <tr>
             <td>position</td>
-            <td>Sí </td>
+            <td>Especifica cómo un elemento es posicionado en el documento. Las propiedades top,
+                right, bottom, y left determinan la ubicación final de los elementos posicionados.</td>
         </tr>
         <tr>
             <td>overflow</td>
-            <td>Sí </td>
+            <td>Se utiliza para: recortar contenido, dibujar barras de desplazamiento o mostrar el
+                contenido excedente en un elemento a nivel de bloque</td>
         </tr>
         <tr>
             <td>float</td>
-            <td>Sí </td>
+            <td>Sirve para alinear un elemento, haciendo que el texto de alrededor del mismo se agrupe
+                entorno a dicho elemento. Sus posibles valores son “left” para alinear el elemento a la
+                izquierda y “right” para alinearlo a la derecha.</td>
         </tr>
-        <tr>
-            <td>OJO</td>
-            <td>Sí </td>
-        </tr>
-        <tr>
-            <td>OJO</td>
-            <td>Sí </td>
-        </tr>
-        <tr>
-            <td>OJO</td>
-            <td>Sí </td>
-        </tr>
-        <tr>
-            <td>OJO</td>
-            <td>Sí </td>
-        </tr>
-        <tr>
-            <td>OJO</td>
-            <td>Sí </td>
-        </tr>
-        <tr>
-            <td>OJO</td>
-            <td>Sí </td>
-        </tr>
-        <tr>
-            <td>OJO</td>
-            <td>Sí </td>
-        </tr>
+        
     </table>
+    
+    <footer>
+        <h4>Prohibida su reproducción</h4>
+        <h4>Elaboró: Olmer Castro</h4>
+    </footer>
+
 </body>
 </html>
